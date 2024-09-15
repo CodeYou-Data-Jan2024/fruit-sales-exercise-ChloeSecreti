@@ -1,5 +1,4 @@
 import pandas as pd
 fruits = pd.DataFrame([[35, 21], [41, 34]], columns = ['Apples', 'Bananas'], index=['2017 Sales', '2018 Sales'])
-fruits.to_csv('fruit.csv', index=False)
 
-pd.read_csv()
+pd.read_csv(fruits)
