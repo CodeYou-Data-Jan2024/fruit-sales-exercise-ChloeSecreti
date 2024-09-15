@@ -1,8 +1,8 @@
-import os
-import pandas as pd
+#import os
+#import pandas as pd
 #import pytest
 
-CSV_FILE = "fruit.csv"
+#CSV_FILE = "fruit.csv"
 
 #def test_file_exists():
    # assert os.path.exists(CSV_FILE) == True, "csv file does not exist"
