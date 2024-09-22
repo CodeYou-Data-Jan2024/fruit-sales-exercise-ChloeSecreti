@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15845542&assignment_repo_type=AssignmentRepo)
 # Fruit Sales
 
 Code Louisville Python programming exercise.
@@ -61,3 +62,13 @@ the following command to run the tests: `pytest tests.py`. You can read more
 about it [here](https://realpython.com/python-testing/).
 1. Review the output from running the test. This will let you know whether your 
 code produces the expected results.
+# fruit-sales
+# fruit-sales
+# fruit-sales
+# fruit-sales
+# fruit-sales
+# fruit-sales
+# fruit-sales
+# fruit-sales
+# fruit-sales
+# fruit-sales

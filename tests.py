@@ -5,14 +5,14 @@ import pytest
 CSV_FILE = "fruit.csv"
 
 def test_file_exists():
-    assert os.path.exists(CSV_FILE) == True, "csv file does not exist"
+   assert os.path.exists(CSV_FILE) == True, "csv file does not exist"
 
 def test_columns_exist():
     expected_columns = ['Apples','Bananas']
     try:
-        df = pd.read_csv(CSV_FILE)
-        for col in expected_columns:
-            assert col in df.columns
+       df = pd.read_csv(CSV_FILE)
+       for val in expected_values:
+            assert val in df[column_name].values
     except Exception as e:
         assert False, e
 
