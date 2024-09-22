@@ -1,4 +1,14 @@
 import pandas as pd
-#pd.DataFrame([[35, 21], [41, 34]], columns = ['Apples', 'Bananas'], index=['2017 Sales', '2018 Sales'])
-pd.read_csv('fruit.csv')
+
+data = {
+    'Apples': [35, 41],
+    'Bananas': [21, 34]
+}
+
+df = pd.DataFrame(data, index=['2017 Sales', '2018 Sales'])
+
+output_file_path = 'fruit.csv'
+
+# Write the DataFrame to a CSV file
+df.to_csv(output_file_path)
 
